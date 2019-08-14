@@ -1,0 +1,804 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"part",
+				"partial_size"
+			],
+			[
+				"prote",
+				"proteins_fasta"
+			],
+			[
+				"div",
+				"division"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"proteins",
+				"proteins_list"
+			],
+			[
+				"num",
+				"num_divisions"
+			],
+			[
+				"partition",
+				"partition_size"
+			],
+			[
+				"divisao",
+				"divisao"
+			],
+			[
+				"amino",
+				"amino_acids"
+			],
+			[
+				"total",
+				"total_size"
+			],
+			[
+				"diso_",
+				"diso_divided2"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"diso",
+				"diso_divided"
+			],
+			[
+				"remove",
+				"remove_small_residues"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"dis",
+				"diso_lines"
+			],
+			[
+				"pub",
+				"pub"
+			],
+			[
+				"atom",
+				"atomo_101"
+			],
+			[
+				"fech",
+				"fechar_arquivo"
+			],
+			[
+				"impr",
+				"imprimir_arquivo"
+			],
+			[
+				"ler",
+				"ler_arquivo"
+			],
+			[
+				"seq",
+				"sequencia2"
+			],
+			[
+				"se",
+				"sequencia1"
+			],
+			[
+				"sq",
+				"sequencia2"
+			],
+			[
+				"lista",
+				"lista_dicionario"
+			],
+			[
+				"tr",
+				"try_operations"
+			],
+			[
+				"ju",
+				"jug_1"
+			],
+			[
+				"small",
+				"smaller_path"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"smal",
+				"smaller_path"
+			],
+			[
+				"s",
+				"small_paths"
+			],
+			[
+				"sma",
+				"smaller_path"
+			],
+			[
+				"a",
+				"a_star"
+			],
+			[
+				"remo",
+				"remove_elements"
+			],
+			[
+				"thro",
+				"throw_j2_to_j1"
+			],
+			[
+				"thr",
+				"throw_j1_to_j2"
+			],
+			[
+				"f",
+				"fill_j2_with_j1"
+			],
+			[
+				"fi",
+				"fill_j1_with_j2"
+			],
+			[
+				"ori",
+				"original_path"
+			],
+			[
+				"node",
+				"node_original"
+			],
+			[
+				"fil",
+				"fill_j1"
+			],
+			[
+				"th",
+				"throw_j1_to_j2"
+			],
+			[
+				"em",
+				"empty_j1"
+			],
+			[
+				"fill",
+				"fill_j1"
+			],
+			[
+				"pri",
+				"printar"
+			],
+			[
+				"j",
+				"j1"
+			],
+			[
+				"path",
+				"path_list"
+			],
+			[
+				"child",
+				"child"
+			],
+			[
+				"childr",
+				"children"
+			],
+			[
+				"c",
+				"children"
+			],
+			[
+				"children",
+				"getChildren"
+			],
+			[
+				"insert",
+				"insert_before"
+			],
+			[
+				"inser",
+				"insert_after"
+			],
+			[
+				"index",
+				"index_node"
+			],
+			[
+				"Lista",
+				"ListaCircular"
+			],
+			[
+				"tama",
+				"tamanhoMax"
+			],
+			[
+				"ta",
+				"tail"
+			],
+			[
+				"tamanh",
+				"tamanhoDHT"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"gp",
+				"Git: Push"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"gpul",
+				"Git: Pull"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git remo",
+				"Git: Remote"
+			],
+			[
+				"gar",
+				"Git: Add Remote"
+			],
+			[
+				"gin",
+				"Git: Init"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git h",
+				"Git: Help"
+			],
+			[
+				"git",
+				"Git: Help"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"git he",
+				"Git: Help"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"gith",
+				"Git: Help"
+			],
+			[
+				"gitc",
+				"Git: Commit"
+			],
+			[
+				"gpush c",
+				"Git: Push Current Branch"
+			],
+			[
+				"gremo",
+				"Git: Remote"
+			],
+			[
+				"Git: Remor",
+				"Git: Checkout Remote Branch"
+			],
+			[
+				"git: add r",
+				"Git: Add Remote"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"gstat",
+				"Git: Status"
+			],
+			[
+				"gpush",
+				"Git: Push"
+			],
+			[
+				"commt",
+				"Git: Commit"
+			],
+			[
+				"gpus",
+				"Git: Push"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"gstatu",
+				"Git: Status"
+			],
+			[
+				"gcom",
+				"Git: Commit"
+			],
+			[
+				"git: comm",
+				"Git: Commit"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
+			[
+				"Git:Sta",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 138.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/icaro/Documents/tcc/src/split_proteins.py",
+		"/C/Users/icaro/Documents/tcc/src/4_GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/3_GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/2_GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/1_GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/4_multi.faa",
+		"/C/Users/icaro/Documents/tcc/src/3_multi.faa",
+		"/C/Users/icaro/Documents/tcc/src/2_multi.faa",
+		"/C/Users/icaro/Documents/tcc/src/1_multi.faa",
+		"/C/Users/icaro/Documents/tcc/src/0_multi.faa",
+		"/C/Users/icaro/Documents/tcc/src/0_GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/Python/lista2/multi.fasta",
+		"/C/Users/icaro/Documents/Python/teste_nome.py",
+		"/C/Users/icaro/Documents/tcc/src/GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/Python/lista2/lista_multifasta.py",
+		"/C/Users/icaro/Documents/UESC/TCC/Nova pasta/split_proteins.py",
+		"/C/Users/icaro/Documents/tcc/README.md",
+		"/C/Users/icaro/Documents/UESC/TCC/Nova pasta/human.faa",
+		"/C/Users/icaro/Documents/tcc/ref.txt",
+		"/C/Users/icaro/Documents/tcc/split_proteins.py",
+		"/C/Users/icaro/Documents/UESC/Analise numerica/Analise numerica/Relatorio/R-Kutta-ord3/rKutta-ord3.py",
+		"/C/Users/icaro/Documents/tcc/Tc04_g018130.diso",
+		"/C/Users/icaro/Documents/tcc/find_entries_diso.py",
+		"/C/Users/icaro/Documents/tcc/GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/.gitignore",
+		"/C/Users/icaro/Documents/Python/lista2/split_proteins.py",
+		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/find_entries_diso.py",
+		"/C/Users/icaro/Documents/UESC/TCC/python/GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/UESC/TCC/python/par.py",
+		"/C/Users/icaro/Documents/Python/lista2/dicionario_multifasta.py",
+		"/C/Users/icaro/Documents/Python/lista2/switch.py",
+		"/C/Users/icaro/Documents/Python/lista2/multi2.fasta",
+		"/C/Users/icaro/Documents/Python/lista2/menu.py",
+		"/C/Users/icaro/Documents/Python/lista2/salvar_arquivo_fasta.py",
+		"/C/Users/icaro/Documents/Python/lista2/sequencias_iguais.py",
+		"/C/Users/icaro/Documents/Python/lista2/arquivo_na_tela.py",
+		"/C/Users/icaro/Documents/Python/lista2/GCF_000001405.39_GRCh38.p13_protein.faa",
+		"/C/Users/icaro/Documents/UESC/TCC/python/GCF_000240185.1_ASM24018v2_genomic.fna",
+		"/C/Users/icaro/Documents/Python/biopython/bio_ler_fasta.py",
+		"/C/Users/icaro/Documents/Python/biopython/bio.py",
+		"/C/Users/icaro/Documents/Python/biopython/hello_world_os.py",
+		"/C/Users/icaro/Documents/Python/biopython/my_seq.fasta",
+		"/C/Users/icaro/Documents/Python/biopython/estrutura_proteina.py",
+		"/C/Users/icaro/Documents/Python/biopython/traducao.py",
+		"/C/Users/icaro/Documents/Python/biopython/seq_complementar.py",
+		"/C/Users/icaro/Documents/Python/biopython/ler_rna_humxbac.py",
+		"/C/Users/icaro/Documents/Python/biopython/transcricao.py",
+		"/C/Users/icaro/Documents/Python/lista2/sequencia_fasta.fasta",
+		"/C/Users/icaro/Documents/Python/biopython/1bga.pdb",
+		"/C/Users/icaro/Documents/Python/biopython/dados-utilizados-e-codigo-fonte/18s_humano.fasta",
+		"/C/Users/icaro/Documents/Python/biopython/dados-utilizados-e-codigo-fonte/16s_bacteria.fasta",
+		"/C/Users/icaro/Documents/Python/biopython/16s_bacteria.fasta",
+		"/C/Users/icaro/Documents/Python/biopython/18s_humano.fasta",
+		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/test_list.py",
+		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/results.txt",
+		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/Tc04_g018130.diso",
+		"/C/Users/icaro/Documents/Python/find_entries_diso.py",
+		"/C/Users/icaro/Documents/Python/src/cgi-bin/hello.py",
+		"/C/Users/icaro/Documents/Python/src/cgi-bin/hellouser.py",
+		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/list_cleaning.py",
+		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/regex_busca.py",
+		"/C/Users/icaro/Documents/test_font.html",
+		"/C/Users/icaro/Documents/Python/regex_busca.py",
+		"/C/Users/icaro/Documents/UESC/SD/circular.py",
+		"/C/Users/icaro/Documents/UESC/SD/dht.py",
+		"/C/Users/icaro/Documents/UESC/SD/teste hash.py",
+		"/C/Users/icaro/Documents/UESC/SD/lista_circular.py",
+		"/C/Users/icaro/Documents/UESC/SD/doubly-linked.py",
+		"/C/Users/icaro/Documents/UESC/SD/helloworld.py",
+		"/C/Users/icaro/Documents/Python/bc/intro.py",
+		"/C/Users/icaro/Downloads/PopcornTime/Legion.S03E03.Legendei.com_/Legion.S03E03.720p.WEB.H264-MEMENTO.srt",
+		"/C/Users/icaro/Downloads/PopcornTime/Legion.S03E01.1080p.WEB.H264-MEMENTO[rarbg]/legion.s03e01.1080p.web.h264-memento.srt",
+		"/C/Users/icaro/Downloads/PopcornTime/Legion.S03E01.1080p.WEB.H264-MEMENTO[rarbg]/legion.s03e01.1080p.web.h264-memento-en.srt",
+		"/C/Users/icaro/Documents/Python/ordenar_lista.py",
+		"/C/Users/icaro/Documents/tcc/ignored.py",
+		"/C/Users/icaro/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/icaro/Documents/tcc/hw.py",
+		"/C/Users/icaro/git-course/Readme.md",
+		"/C/Users/icaro/Downloads/Game.of.Thrones.S05E05.720p.HDTV.x264-0SEC.srt-legendafilmes.com.br.srt",
+		"/C/Users/icaro/Documents/Captain America Civil War (2016) [YTS.AG]/Captain.America.Civil.War.2016.720p.BluRay.x264-[YTS.AG].srt",
+		"/C/Users/icaro/Documents/Avengers.Infinity.War.2018.720p.BluRay.H264.AAC-RARBG/Avengers.Infinity.War.2018.720p.BluRay.x264-SPARKS.srt",
+		"/C/Users/icaro/Documents/Python/biopython/dados-utilizados-e-codigo-fonte/aula.py",
+		"/C/Users/icaro/Downloads/1bga.fasta.txt",
+		"/C/Users/icaro/Documents/Python/biopython/aula.py",
+		"/C/Users/icaro/Documents/Python/lista2/teste.txt",
+		"/C/Users/icaro/AppData/Roaming/Sublime Text 2/Packages/Theme - Cobalt2/Cobalt2.sublime-theme",
+		"/C/Users/icaro/AppData/Roaming/Sublime Text 2/Packages/User/Python.sublime-settings",
+		"/C/Users/icaro/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/icaro/Documents/Python/modularizacao/main.py",
+		"/C/Users/icaro/Documents/Python/modularizacao/media.py",
+		"/C/Users/icaro/Documents/Python/modularizacao/aleatorio.py",
+		"/C/Users/icaro/Documents/Python/equacao.py",
+		"/C/Users/icaro/Documents/Python/aleatorio.py",
+		"/C/Users/icaro/Documents/Python/exception.py",
+		"/C/Users/icaro/Documents/Python/hello.py",
+		"/C/Users/icaro/Documents/Python/modularizacao/lista.py",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/fallen.cfg",
+		"/C/Users/icaro/Downloads/script.sql",
+		"/C/Users/icaro/Documents/UESC/Analise numerica/Alexandre/1o Relatorio/Bisseccao/BissecFINALBackup.cpp",
+		"/C/Users/icaro/Documents/IA/latin square_201512356.pl",
+		"/C/Users/icaro/Documents/IA/water-jug-problem.py",
+		"/C/Users/icaro/Documents/mes.c",
+		"/C/Users/icaro/Documents/IA/soma15.pl",
+		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg",
+		"/C/Users/icaro/Documents/UESC/Analise numerica/Alexandre/1o Relatorio/Bisseccao/a.out",
+		"/C/Users/icaro/Documents/Análise Numérica/R1/Jacobi/Jacobi.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R1/Newton-Rapshon/Newton.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R1/PosicaoFalsa/posicaofalsa.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R1/Secante/Secante.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/AP/AproximacaoPolinomial.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/GaussLaguerre/GaussLaguerre.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/Lagrange/Lagrange.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/MMQ/MMQ.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/NewtonCotes/NewtonCotes.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/QuadraturaGauss/QGauss.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/Simpson13/Simpson13.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/Simpson38/Simpson38.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R2/Trapezio/TrapezioIC.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/DiferencasFinitas/DiferencasFinitas.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/Euler/Euler.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/EulerMelhorado/EulerMelhorado.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/Heun/Heun.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/Heun/HeunModificado.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/Runge/RungeKutta2.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/Runge/RungeKutta3.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/Runge/RungeKutta4.sce",
+		"/C/Users/icaro/Documents/Análise Numérica/R3/Shooting/shooting.sce",
+		"/C/Users/icaro/Documents/Analise 2018.2/Análise Numérica - 2º Crédito/Regra-do-Trapezio/Regra-do-Trapezio.sce"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"new_file",
+			"write",
+			"this_name",
+			"new_fasta",
+			"close",
+			"readlines",
+			"fasta_file",
+			"save_splitted",
+			"line",
+			"new_file",
+			"index",
+			"open",
+			"new_file",
+			"readlines",
+			"new_file",
+			"msygsl",
+			">",
+			"filename",
+			"read_file",
+			"proteins_fasta",
+			"print",
+			"size",
+			"tam_referencia",
+			"size",
+			"element",
+			"total_size",
+			"proteins",
+			"index",
+			"lista",
+			"fasta_file",
+			"linha",
+			"linhas",
+			"separated_elements_fasta",
+			"salvar_separated_elements_fasta",
+			"arquivo",
+			"file_fasta",
+			"arquivo",
+			"nome_arquivo",
+			"ler_arquivo",
+			"separated_elements_fasta2",
+			"lista",
+			"index",
+			"x",
+			"z",
+			"split_desordered_regions",
+			"clean_list",
+			"lista",
+			"teste",
+			":\n",
+			"1",
+			"/\n",
+			"*",
+			"humano",
+			"1",
+			"from",
+			"M",
+			"Z",
+			"U",
+			"O",
+			"B",
+			"len(lista)",
+			"mediana",
+			"media",
+			"aleatorio",
+			"2",
+			"[^ ]*[r|R][^ |\\.]*",
+			"1",
+			"a",
+			"b",
+			"a",
+			"volum",
+			"\"\n",
+			"mouse",
+			"wheel",
+			"team",
+			"cl_",
+			"mouse4",
+			"}",
+			"1",
+			"2",
+			"1",
+			"2",
+			"regra2",
+			"regra1",
+			"Choose",
+			"iguais",
+			"C",
+			"B",
+			"A",
+			"Choose",
+			"RungeK",
+			"RangeK",
+			"Runge",
+			"Posicao",
+			"jogar",
+			"Posicao",
+			"posicao",
+			"Posicao",
+			"leitura_posicao",
+			"Elemento",
+			"soma",
+			"iguais",
+			"read",
+			"read_integer",
+			").",
+			"3",
+			"4",
+			"p_L no ",
+			"smaller_path",
+			"small_path",
+			"path",
+			"= [",
+			"new_path2 =",
+			"new_pa",
+			"path = [path,",
+			"(node,",
+			"(n",
+			"(p",
+			"path =",
+			"h +",
+			"e +",
+			"path +",
+			"node +",
+			"+=",
+			"original_n",
+			"path +=",
+			"node +=",
+			"node"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 202.0
+	},
+	"output.git-commit":
+	{
+		"height": 116.0
+	},
+	"output.git-init":
+	{
+		"height": 116.0
+	},
+	"output.git-pull":
+	{
+		"height": 116.0
+	},
+	"output.git-push":
+	{
+		"height": 116.0
+	},
+	"output.git-remote":
+	{
+		"height": 116.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true
+}
