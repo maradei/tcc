@@ -3,13 +3,13 @@
 
 # Nome do arquivo a ser processado abaixo, associado a esta variavel
 
-proteins_fasta = 'GCF_000240185.1_ASM24018v2_protein'
+proteins_fasta = 'multi'
 
 new_file = open(proteins_fasta + '.txt', 'w')
 
 # Numero de divisoes para a proteina ser processada
 
-num_divisions = 20
+num_divisions = 3
 
 # Funcao para ler um arquivo, recebendo o nome do arquivo como entrada
 
