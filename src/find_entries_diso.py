@@ -33,17 +33,28 @@ def split_regions(lists):
     division = 0
     i = 1
 
-    for i in range(len(lists)):
+    # print (lists)
 
+    for i in range(len(lists)):
+        # print ('iteracao ')
+        # print(i)
+        # print(new_list)
         if not lists[i]:
 
-            if (lists[division+1 : i]):
-                new_list.append(lists[division+1 : i])
+            #if (lists[division+1 : i]):
+            new_list.append(lists[division+1 : i])
 
             division = i
 
+            # print(division)
+
+    if lists[-1]:
+        new_list.append(lists[division+1:])
+        # print (lists[-1])
+
+
     newer_list = list(filter(lambda element: (element != []), new_list))
-    return new_list
+    return newer_list
 
 
 def remove_small_residues(lists):
@@ -51,6 +62,16 @@ def remove_small_residues(lists):
     for element in lists:
 
         if len(element) < 3:
+
+            # print(element)
+
+            lists.remove(element)
+
+    for element in lists:
+
+        if len(element) < 3:
+
+            # print(element)
 
             lists.remove(element)
 
@@ -80,6 +101,7 @@ def save_file(filename, divided_list):
 
             short_residues = short_residues + 1
 
+    new_file.write('\n')
     new_file.write('Long residues = ')
     new_file.write(str(long_residues))
     new_file.write('\n')
@@ -97,18 +119,12 @@ diso_lines = [re.findall("[0-9]+(?=[ ][A-Z][ ][\*])", line)
   for line in open(filename + '.diso')]
 
 diso_lines = clean_initial_lines(diso_lines)
-print ('lista completa: ', diso_lines)
+# print ('lista completa: ', diso_lines)
 diso_divided = split_regions(diso_lines)
-print ('lista dividida: ', diso_divided)
+# print ('lista dividida: ', diso_divided)
 diso_divided2 = remove_small_residues(diso_divided)
 
-
-print ('lista dividida: ')
+# print ('lista dividida: ')
+# print (diso_divided2)
 
 save_file(filename, diso_divided2)
-
-print (diso_divided2)
-
-
-
-

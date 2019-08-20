@@ -3,18 +3,20 @@
 
 # Nome do arquivo a ser processado abaixo, associado a esta variavel
 
-proteins_fasta = 'GCF_000240185.1_ASM24018v2_protein'
+proteins_fasta = 'multi'
 
 new_file = open(proteins_fasta + '.txt', 'w')
 
 # Numero de divisoes para a proteina ser processada
 
-num_divisions = 4
+num_divisions = 5
 
 # Funcao para ler um arquivo, recebendo o nome do arquivo como entrada
 
 def read_file(filename):
+
     fasta_file = open(filename + '.faa')
+
     return fasta_file
 
 # Funcao que recebe um arquivo como entrada, e retorna uma lista com
@@ -40,6 +42,7 @@ def save_splitted(fasta_file):
 #   que se encontre uma linha de cabecalho
 
     element = ""
+
     for line in lines:
 
 # Neste if, caso ele encontre uma linha com um cabecalho, como ele ja
@@ -49,10 +52,13 @@ def save_splitted(fasta_file):
 #   ma proteina ate que o proximo cabecalho chegue.
 
         if line[0] == ">":
+
             splitted_elements.append(element)
             splitted_elements.append(line.strip())
             element = ""
+
         else:
+
             element += line.strip()
 
 # Aqui ele anexa a ultima proteina, e remove o primeiro termo, que eh
@@ -60,6 +66,7 @@ def save_splitted(fasta_file):
 
     splitted_elements.append(element)
     splitted_elements.pop(0)
+
     return splitted_elements
 
 # proteins eh uma lista contendo apenas as proteinas, sem seus devidos
@@ -71,8 +78,8 @@ def save_splitted(fasta_file):
 def proteins(complete_list):
 
     proteins_list = complete_list[1::2]
-    return proteins_list
 
+    return proteins_list
 
 # A funcao total_size recebe uma lista ja pre-formatada com cabecalhos
 #   e proteinas e retorna o numero total de aminoacidos contida nela
@@ -85,6 +92,7 @@ def total_size(proteins_list):
 #   incrementa o numero de aminoacidos
 
     for element in proteins_list:
+
         size += len(element)
 
     return size
@@ -104,7 +112,7 @@ def division(proteins_list, size):
 
     partition_size = int(size / num_divisions)
 
-    print (partition_size)
+    # print (partition_size)
 
 # A variavel partial_size eh o valor de comparacao a ser feito com a
 #   posicao atual (inicia em 0 e vai incrementando o tamanho de cada
@@ -126,6 +134,8 @@ def division(proteins_list, size):
 
     partition = partition_size
 
+    total_aa = 0
+
 # Loop que percorre toda a cadeia de proteinas, analisando cada protei-
 #   na, e se ja chegou no tamanho ideal
 
@@ -144,46 +154,87 @@ def division(proteins_list, size):
 #   avaliada nesta posicao, ou seja, se o ponto de encontro esta antes
 #   ou depois da metade dela
 
-
-
             if(position <= (int(len(element)/2))):
-                print(proteins_list[proteins_list.index(element) - 1])
-                print(proteins_list.index(element) - 1)
+
+                # print(proteins_list[proteins_list.index(element) - 1])
+                # print(proteins_list.index(element) - 1)
                 checkpoints.append(proteins_list.index(element) - 1)
-                #print('teste1')
-                #print(position)
-                #print(len(element)/2)
-                print(checkpoints)
+                # print(len(element)/2)
+                # print(checkpoints)
                 new_file.write('Partition number ')
                 new_file.write(str(count+1))
-                new_file.write(' finishes in ')
-                new_file.write(str(proteins_list[proteins_list.index(element) - 1]))
+                new_file.write(' has ')
+
+                # print ('partial_size = ', partial_size)
+                # print ('total aa = ', total_aa)
+
+                partition_aa = partial_size - total_aa
+
+                # print ('partition_aa = ', partition_aa)
+
+                total_aa += partition_aa
+
+                new_file.write(str(partition_aa))
+                new_file.write(' aminoacids')
+                # new_file.write(' finishes in ')
+                # new_file.write(str(proteins_list[proteins_list.index(element) - 1]))
                 new_file.write('\n')
+
             else:
-                print(element)
-                print(proteins_list.index(element))
+
+                # print(element)
+                # print(proteins_list.index(element))
                 checkpoints.append(proteins_list.index(element))
-                #print('teste2')
-                #print(position)
-                #print(len(element)/2)
-                print(checkpoints)
+                # print('teste2')
+                # print(position)
+                # print(len(element)/2)
+                # print(checkpoints)
+
+                # print ('partial_size = ', partial_size)
+                # print ('total aa = ', total_aa)
+
+                partition_aa = partial_size - total_aa
+
+                # print ('partition_aa = ', partition_aa)
+
+                total_aa += partition_aa
+
                 new_file.write('Partition number ')
                 new_file.write(str(count+1))
-                new_file.write(' finishes in ')
-                new_file.write(str(proteins_list[proteins_list.index(element) - 1]))
+                new_file.write(' has ')
+                new_file.write(str(partition_aa))
+                new_file.write(' aminoacids')
+                # new_file.write(' finishes in ')
+                # new_file.write(str(proteins_list[proteins_list.index(element) - 1]))
                 new_file.write('\n')
+
             count += 1
             partition = partition_size * (count+1)
+
             if (count == num_divisions-1):
+
                 break
 
         partial_size += len(element)
+
+    # print ('partial_size = ', size)
+    # print ('total aa = ', total_aa)
+
+    partition_aa = size - total_aa
+
+    # print ('partition_aa = ', partition_aa)
+
+    new_file.write('Partition number ')
+    new_file.write(str(count+1))
+    new_file.write(' has ')
+    new_file.write(str(partition_aa))
+    new_file.write(' aminoacids')
 
     new_file.close()
 
     return checkpoints
 
-def create_files(checkpoints, fasta_file):
+def create_files(checkpoints, fasta_file, num_divisions):
 
     gt_counter = 0
 
@@ -191,7 +242,9 @@ def create_files(checkpoints, fasta_file):
 
     lines = fasta_file.readlines()
 
-    original_name = str('_' + proteins_fasta + '.faa')
+    num_divisions = str(num_divisions)
+
+    original_name = str('-' + num_divisions + '_' + proteins_fasta + '.faa')
 
     now_file = open('1' + original_name, 'w')
 
@@ -202,22 +255,20 @@ def create_files(checkpoints, fasta_file):
             gt_counter += 1
 
         try:
+
             if (gt_counter > checkpoints[cp_counter]):
+
                 cp_counter += 1
                 now_file.close()
                 now_file = open(str(cp_counter+1) + original_name, 'w')
+
         except:
+
             pass
 
         now_file.write(line)
 
     now_file.close()
-
-
-
-
-
-
 
 # fasta_file eh uma variavel do tipo arquivo que ira ler o arquivo a
 #   ser trabalhado
@@ -234,17 +285,16 @@ proteins_list = proteins(splitted_elements)
 
 amino_acids = total_size(proteins_list)
 
-print (amino_acids)
+# print (amino_acids)
 
 new_file.write('Number of aminoacids = ')
 new_file.write(str(amino_acids))
-new_file.write('\n')
+new_file.write('\n\n')
 
 checkpoints = division(proteins_list, amino_acids)
 
 fasta_file = read_file(proteins_fasta)
 
-create_files(checkpoints, fasta_file)
-
+create_files(checkpoints, fasta_file, num_divisions)
 
 fasta_file.close()
