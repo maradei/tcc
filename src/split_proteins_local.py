@@ -3,15 +3,16 @@
 
 # Nome do arquivo a ser processado abaixo, associado a esta variavel
 
-proteins_fasta = 'GCF_002204515.2_AaegL5.0_protein'
+proteins_fasta = 'GCF_000347755.3_Ccap_2.1_protein'
 
 new_file = open(proteins_fasta + '.txt', 'w')
 
 # Numero de divisoes para a proteina ser processada
 
-num_divisions = 3
+num_divisions = 7
 
 # Funcao para ler um arquivo, recebendo o nome do arquivo como entrada
+
 
 def read_file(filename):
 
@@ -21,6 +22,7 @@ def read_file(filename):
 
 # Funcao que recebe um arquivo como entrada, e retorna uma lista com
 #   os cabecalhos e proteinas
+
 
 def save_splitted(fasta_file):
 

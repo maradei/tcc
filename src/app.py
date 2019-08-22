@@ -1,7 +1,6 @@
 import os
 
 from flask import Flask
-from flask_mail import Mail, Message
 
 app = Flask(__name__)
 SECRET_KEY = os.urandom(32)

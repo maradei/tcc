@@ -6,125 +6,127 @@ import re
 # Nome do arquivo que contem a proteina a ser avaliada
 filename = 'Tc04_g018130'
 
-# Funcao clean_initial_lines desenvolvida para limpar as primeiras
-#   linhas de registro vazias e deixar o indice da lista correspon-
-#   dente a posicao na lista
 
-def clean_initial_lines(lists):
+def main(filename):
 
+    # Funcao clean_initial_lines desenvolvida para limpar as primeiras
+    #   linhas de registro vazias e deixar o indice da lista correspon-
+    #   dente a posicao na lista
 
-    for element in lists:
+    def clean_initial_lines(lists):
 
-        if element:
-            start_index = lists.index(element) - 1
-            break
+        for element in lists:
 
-    lists = lists[start_index:]
+            if element:
+                start_index = lists.index(element) - 1
+                break
 
-    return lists
+        lists = lists[start_index:]
 
-# Funcao split_regions criada para dividir a lista a ser trabalhada,
-#   transformando-a em uma lista de listas, em que cada lista inter-
-#   na possui uma regiao desordenada
+        return lists
 
-def split_regions(lists):
+    # Funcao split_regions criada para dividir a lista a ser trabalhada,
+    #   transformando-a em uma lista de listas, em que cada lista inter-
+    #   na possui uma regiao desordenada
 
-    new_list = []
-    division = 0
-    i = 1
+    def split_regions(lists):
 
-    # print (lists)
+        new_list = []
+        division = 0
+        i = 1
 
-    for i in range(len(lists)):
-        # print ('iteracao ')
-        # print(i)
-        # print(new_list)
-        if not lists[i]:
+        # print (lists)
 
-            #if (lists[division+1 : i]):
-            new_list.append(lists[division+1 : i])
+        for i in range(len(lists)):
+            # print ('iteracao ')
+            # print(i)
+            # print(new_list)
+            if not lists[i]:
 
-            division = i
+                #if (lists[division+1 : i]):
+                new_list.append(lists[division+1 : i])
 
-            # print(division)
+                division = i
 
-    if lists[-1]:
-        new_list.append(lists[division+1:])
-        # print (lists[-1])
+                # print(division)
 
-
-    newer_list = list(filter(lambda element: (element != []), new_list))
-    return newer_list
+        if lists[-1]:
+            new_list.append(lists[division+1:])
+            # print (lists[-1])
 
 
-def remove_small_residues(lists):
+        newer_list = list(filter(lambda element: (element != []), new_list))
+        return newer_list
 
-    for element in lists:
 
-        if len(element) < 3:
+    def remove_small_residues(lists):
 
-            # print(element)
+        for element in lists:
 
-            lists.remove(element)
+            if len(element) < 3:
 
-    for element in lists:
+                # print(element)
 
-        if len(element) < 3:
+                lists.remove(element)
 
-            # print(element)
+        for element in lists:
 
-            lists.remove(element)
+            if len(element) < 3:
 
-    return lists
+                # print(element)
 
-def save_file(filename, divided_list):
+                lists.remove(element)
 
-    new_file = open(filename + '.txt', 'w')
-    short_residues = 0
-    long_residues = 0
+        return lists
 
-    for element in divided_list:
+    def save_file(filename, divided_list):
 
-        new_file.write(str(element[0]))
-        new_file.write(' - ')
-        new_file.write(str(element[-1]))
-        new_file.write(' = ')
-        new_file.write(str(len(element)))
+        new_file = open(filename + '.txt', 'w')
+        short_residues = 0
+        long_residues = 0
+
+        for element in divided_list:
+
+            new_file.write(str(element[0]))
+            new_file.write(' - ')
+            new_file.write(str(element[-1]))
+            new_file.write(' = ')
+            new_file.write(str(len(element)))
+            new_file.write('\n')
+
+
+            if len(element) < 31:
+
+                long_residues = long_residues + 1
+
+            else:
+
+                short_residues = short_residues + 1
+
         new_file.write('\n')
-
-
-        if len(element) < 31:
-
-            long_residues = long_residues + 1
-
-        else:
-
-            short_residues = short_residues + 1
-
-    new_file.write('\n')
-    new_file.write('Long residues = ')
-    new_file.write(str(long_residues))
-    new_file.write('\n')
-    new_file.write('Short residues = ')
-    new_file.write(str(short_residues))
-    new_file.close()
+        new_file.write('Long residues = ')
+        new_file.write(str(long_residues))
+        new_file.write('\n')
+        new_file.write('Short residues = ')
+        new_file.write(str(short_residues))
+        new_file.close()
 
 
 
-# Execucao da expressao regular no arquivo .diso, com a finalidade
-#   de transformar o arquivo em uma lista, com cada posicao corres-
-#   pondente a posicao no arquivo, ou seja, se a posicao existir na
-#   lista, ela e um residuo desordenado
-diso_lines = [re.findall("[0-9]+(?=[ ][A-Z][ ][\*])", line)
-  for line in open(filename + '.diso')]
+    # Execucao da expressao regular no arquivo .diso, com a finalidade
+    #   de transformar o arquivo em uma lista, com cada posicao corres-
+    #   pondente a posicao no arquivo, ou seja, se a posicao existir na
+    #   lista, ela e um residuo desordenado
+    diso_lines = [re.findall("[0-9]+(?=[ ][A-Z][ ][\*])", line)
+      for line in open(filename + '.diso')]
 
-diso_lines = clean_initial_lines(diso_lines)
-# print ('lista completa: ', diso_lines)
-diso_divided = split_regions(diso_lines)
-# print ('lista dividida: ', diso_divided)
-diso_divided2 = remove_small_residues(diso_divided)
+    diso_lines = clean_initial_lines(diso_lines)
+    # print ('lista completa: ', diso_lines)
+    diso_divided = split_regions(diso_lines)
+    # print ('lista dividida: ', diso_divided)
+    diso_divided2 = remove_small_residues(diso_divided)
 
-# print ('lista dividida: ')
-# print (diso_divided2)
+    # print ('lista dividida: ')
+    # print (diso_divided2)
 
-save_file(filename, diso_divided2)
+    save_file(filename, diso_divided2)

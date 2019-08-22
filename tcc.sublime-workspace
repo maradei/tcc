@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"new_file"
+			],
+			[
+				"new_",
+				"new_vector"
+			],
+			[
+				"linha",
+				"linha_inicial"
+			],
+			[
+				"htm",
+				"html_file"
+			],
+			[
+				"orig",
+				"orig_raw_file"
+			],
+			[
+				"split",
+				"splitted_files"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"this",
+				"this_file"
+			],
+			[
+				"Str",
+				"StringIO"
+			],
+			[
+				"fasta",
+				"fasta_file"
+			],
+			[
+				"nam",
+				"names(filename, number)	(imported, function)"
+			],
+			[
+				"proteins",
+				"proteins_fasta"
+			],
+			[
+				"parti",
+				"partition_aa"
+			],
+			[
+				"total",
+				"total_aa"
+			],
+			[
 				"part",
 				"partial_size"
 			],
@@ -20,10 +76,6 @@
 				"element"
 			],
 			[
-				"proteins",
-				"proteins_list"
-			],
-			[
 				"num",
 				"num_divisions"
 			],
@@ -38,10 +90,6 @@
 			[
 				"amino",
 				"amino_acids"
-			],
-			[
-				"total",
-				"total_size"
 			],
 			[
 				"diso_",
@@ -239,6 +287,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/Tc04_g018130.txt",
+			"settings":
+			{
+				"buffer_size": 622,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/split_proteins_local.py",
+			"settings":
+			{
+				"buffer_size": 8711,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/GCF_000347755.3_Ccap_2.1_protein.txt",
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/sender.py",
+			"settings":
+			{
+				"buffer_size": 2786,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -253,6 +333,22 @@
 			[
 				"gs",
 				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"py",
+				"PyYapf: Format Selection"
 			],
 			[
 				"git pus",
@@ -375,16 +471,8 @@
 				"Git: Status"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"remove",
 				"Package Control: Remove Package"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
 			],
 			[
 				"instal",
@@ -401,13 +489,9 @@
 			[
 				"pack",
 				"Package Control: List Packages"
-			],
-			[
-				"package",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 386.0
+		"width": 514.0
 	},
 	"console":
 	{
@@ -425,10 +509,96 @@
 	"file_history":
 	[
 		"/C/Users/icaro/Documents/tcc/src/split_proteins.py",
+		"/C/Users/icaro/Documents/tcc/src/sender.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-proteins/flask-proteins/admin.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-proteins/flask-proteins/auth.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-proteins/flask-proteins/app.py",
+		"/C/Users/icaro/Documents/tcc/src/app.py",
+		"/C/Users/icaro/Documents/tcc/src/split_proteins_local.py",
+		"/C/Users/icaro/Documents/tcc/src/find_entries_diso.py",
+		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/YP_005220827.1.html",
+		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/modify_interpro_analysis.py",
+		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/comparison.html",
+		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/resources/css/protein.css",
+		"/C/Users/icaro/Documents/tcc/src/run-fed.py",
+		"/C/Users/icaro/Documents/Python/biopython/bio_ler_fasta.py",
+		"/C/Users/icaro/Documents/Python/biopython/bio.py",
+		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/resources/css/type_colours.css",
+		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/resources/css/database.css",
+		"/C/Users/icaro/Documents/tcc/.gitignore",
+		"/C/Users/icaro/Documents/tcc/src/templates/upload.html",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000347755.3_Ccap_2.1_protein_2.faa",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/testing_split_proteins2.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/app.py",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000347755.3_Ccap_2.1_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/templates/error.html",
+		"/C/Users/icaro/Documents/tcc/src/GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/11-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/10-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/9-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/8-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/7-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/6-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/5-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/3-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/4-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/1-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/2-11_GCF_000195955.2_ASM19595v2_protein.faa",
+		"/C/Users/icaro/Downloads/7-7_GCF_002204515.2_AaegL5.0_protein.faa",
+		"/C/Users/icaro/Downloads/6-7_GCF_002204515.2_AaegL5.0_protein.faa",
+		"/C/Users/icaro/Downloads/5-7_GCF_002204515.2_AaegL5.0_protein.faa",
+		"/C/Users/icaro/Downloads/4-7_GCF_002204515.2_AaegL5.0_protein.faa",
+		"/C/Users/icaro/Downloads/3-7_GCF_002204515.2_AaegL5.0_protein.faa",
+		"/C/Users/icaro/Downloads/2-7_GCF_002204515.2_AaegL5.0_protein.faa",
+		"/C/Users/icaro/Downloads/1-7_GCF_002204515.2_AaegL5.0_protein.faa",
+		"/C/Users/icaro/Documents/Python/biopython/my_seq.fasta",
+		"/C/Users/icaro/Documents/Python/biopython/16s_bacteria.fasta",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/sending_file.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/mail-sender.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/sender2.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/app3.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/templates/upload.html",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/main.py",
+		"/C/Users/icaro/Downloads/2-6_GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/split_proteins2.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/sender.py",
+		"/C/Users/icaro/Downloads/6-7_GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/list_testing.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/multi.faa.txt",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/multi2.faa",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/upload.html",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/uploader.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-proteins/flask-proteins/hello-world.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/login.html",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/login.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/split_proteins.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/templates/testing.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/testing.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/news_app.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/sending_email.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/db.py",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/requirements.txt",
+		"/C/Users/icaro/dev/trydjango/src/templates/about.html",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/home.html",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/hello-world.html",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/templates/html_page.html",
+		"/C/Users/icaro/dev/trydjango/src/templates/base.html",
+		"/C/Users/icaro/dev/trydjango/src/templates/contact.html",
+		"/C/Users/icaro/dev/trydjango/src/templates/home.html",
+		"/C/Users/icaro/dev/trydjango/src/templates/navbar.html",
+		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/hello-world.py",
+		"/C/Users/icaro/Documents/tcc/tests/helloworld.cgi",
+		"/C/Users/icaro/Documents/Python/src/cgi-bin/hello.py",
+		"/C/Users/icaro/Documents/tcc/tests/MDB-Free_4.8.8/sending_files.html",
+		"/C/Users/icaro/Documents/tcc/tests/sending_files.html",
+		"/C/Users/icaro/Documents/tcc/src/GCF_000240185.1_ASM24018v2_protein.txt",
+		"/C/Users/icaro/Documents/tcc/src/5_GCF_000240185.1_ASM24018v2_protein.faa",
 		"/C/Users/icaro/Documents/tcc/src/4_GCF_000240185.1_ASM24018v2_protein.faa",
 		"/C/Users/icaro/Documents/tcc/src/3_GCF_000240185.1_ASM24018v2_protein.faa",
 		"/C/Users/icaro/Documents/tcc/src/2_GCF_000240185.1_ASM24018v2_protein.faa",
 		"/C/Users/icaro/Documents/tcc/src/1_GCF_000240185.1_ASM24018v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/src/Tc04_g018130.diso",
+		"/C/Users/icaro/Documents/tcc/src/Tc04_g018130.txt",
 		"/C/Users/icaro/Documents/tcc/src/4_multi.faa",
 		"/C/Users/icaro/Documents/tcc/src/3_multi.faa",
 		"/C/Users/icaro/Documents/tcc/src/2_multi.faa",
@@ -437,7 +607,6 @@
 		"/C/Users/icaro/Documents/tcc/src/0_GCF_000240185.1_ASM24018v2_protein.faa",
 		"/C/Users/icaro/Documents/Python/lista2/multi.fasta",
 		"/C/Users/icaro/Documents/Python/teste_nome.py",
-		"/C/Users/icaro/Documents/tcc/src/GCF_000240185.1_ASM24018v2_protein.faa",
 		"/C/Users/icaro/Documents/Python/lista2/lista_multifasta.py",
 		"/C/Users/icaro/Documents/UESC/TCC/Nova pasta/split_proteins.py",
 		"/C/Users/icaro/Documents/tcc/README.md",
@@ -448,7 +617,6 @@
 		"/C/Users/icaro/Documents/tcc/Tc04_g018130.diso",
 		"/C/Users/icaro/Documents/tcc/find_entries_diso.py",
 		"/C/Users/icaro/Documents/tcc/GCF_000240185.1_ASM24018v2_protein.faa",
-		"/C/Users/icaro/Documents/tcc/.gitignore",
 		"/C/Users/icaro/Documents/Python/lista2/split_proteins.py",
 		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/find_entries_diso.py",
 		"/C/Users/icaro/Documents/UESC/TCC/python/GCF_000240185.1_ASM24018v2_protein.faa",
@@ -462,96 +630,12 @@
 		"/C/Users/icaro/Documents/Python/lista2/arquivo_na_tela.py",
 		"/C/Users/icaro/Documents/Python/lista2/GCF_000001405.39_GRCh38.p13_protein.faa",
 		"/C/Users/icaro/Documents/UESC/TCC/python/GCF_000240185.1_ASM24018v2_genomic.fna",
-		"/C/Users/icaro/Documents/Python/biopython/bio_ler_fasta.py",
-		"/C/Users/icaro/Documents/Python/biopython/bio.py",
 		"/C/Users/icaro/Documents/Python/biopython/hello_world_os.py",
-		"/C/Users/icaro/Documents/Python/biopython/my_seq.fasta",
 		"/C/Users/icaro/Documents/Python/biopython/estrutura_proteina.py",
 		"/C/Users/icaro/Documents/Python/biopython/traducao.py",
 		"/C/Users/icaro/Documents/Python/biopython/seq_complementar.py",
 		"/C/Users/icaro/Documents/Python/biopython/ler_rna_humxbac.py",
-		"/C/Users/icaro/Documents/Python/biopython/transcricao.py",
-		"/C/Users/icaro/Documents/Python/lista2/sequencia_fasta.fasta",
-		"/C/Users/icaro/Documents/Python/biopython/1bga.pdb",
-		"/C/Users/icaro/Documents/Python/biopython/dados-utilizados-e-codigo-fonte/18s_humano.fasta",
-		"/C/Users/icaro/Documents/Python/biopython/dados-utilizados-e-codigo-fonte/16s_bacteria.fasta",
-		"/C/Users/icaro/Documents/Python/biopython/16s_bacteria.fasta",
-		"/C/Users/icaro/Documents/Python/biopython/18s_humano.fasta",
-		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/test_list.py",
-		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/results.txt",
-		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/Tc04_g018130.diso",
-		"/C/Users/icaro/Documents/Python/find_entries_diso.py",
-		"/C/Users/icaro/Documents/Python/src/cgi-bin/hello.py",
-		"/C/Users/icaro/Documents/Python/src/cgi-bin/hellouser.py",
-		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/list_cleaning.py",
-		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/regex_busca.py",
-		"/C/Users/icaro/Documents/test_font.html",
-		"/C/Users/icaro/Documents/Python/regex_busca.py",
-		"/C/Users/icaro/Documents/UESC/SD/circular.py",
-		"/C/Users/icaro/Documents/UESC/SD/dht.py",
-		"/C/Users/icaro/Documents/UESC/SD/teste hash.py",
-		"/C/Users/icaro/Documents/UESC/SD/lista_circular.py",
-		"/C/Users/icaro/Documents/UESC/SD/doubly-linked.py",
-		"/C/Users/icaro/Documents/UESC/SD/helloworld.py",
-		"/C/Users/icaro/Documents/Python/bc/intro.py",
-		"/C/Users/icaro/Downloads/PopcornTime/Legion.S03E03.Legendei.com_/Legion.S03E03.720p.WEB.H264-MEMENTO.srt",
-		"/C/Users/icaro/Downloads/PopcornTime/Legion.S03E01.1080p.WEB.H264-MEMENTO[rarbg]/legion.s03e01.1080p.web.h264-memento.srt",
-		"/C/Users/icaro/Downloads/PopcornTime/Legion.S03E01.1080p.WEB.H264-MEMENTO[rarbg]/legion.s03e01.1080p.web.h264-memento-en.srt",
-		"/C/Users/icaro/Documents/Python/ordenar_lista.py",
-		"/C/Users/icaro/Documents/tcc/ignored.py",
-		"/C/Users/icaro/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/C/Users/icaro/Documents/tcc/hw.py",
-		"/C/Users/icaro/git-course/Readme.md",
-		"/C/Users/icaro/Downloads/Game.of.Thrones.S05E05.720p.HDTV.x264-0SEC.srt-legendafilmes.com.br.srt",
-		"/C/Users/icaro/Documents/Captain America Civil War (2016) [YTS.AG]/Captain.America.Civil.War.2016.720p.BluRay.x264-[YTS.AG].srt",
-		"/C/Users/icaro/Documents/Avengers.Infinity.War.2018.720p.BluRay.H264.AAC-RARBG/Avengers.Infinity.War.2018.720p.BluRay.x264-SPARKS.srt",
-		"/C/Users/icaro/Documents/Python/biopython/dados-utilizados-e-codigo-fonte/aula.py",
-		"/C/Users/icaro/Downloads/1bga.fasta.txt",
-		"/C/Users/icaro/Documents/Python/biopython/aula.py",
-		"/C/Users/icaro/Documents/Python/lista2/teste.txt",
-		"/C/Users/icaro/AppData/Roaming/Sublime Text 2/Packages/Theme - Cobalt2/Cobalt2.sublime-theme",
-		"/C/Users/icaro/AppData/Roaming/Sublime Text 2/Packages/User/Python.sublime-settings",
-		"/C/Users/icaro/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/icaro/Documents/Python/modularizacao/main.py",
-		"/C/Users/icaro/Documents/Python/modularizacao/media.py",
-		"/C/Users/icaro/Documents/Python/modularizacao/aleatorio.py",
-		"/C/Users/icaro/Documents/Python/equacao.py",
-		"/C/Users/icaro/Documents/Python/aleatorio.py",
-		"/C/Users/icaro/Documents/Python/exception.py",
-		"/C/Users/icaro/Documents/Python/hello.py",
-		"/C/Users/icaro/Documents/Python/modularizacao/lista.py",
-		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/fallen.cfg",
-		"/C/Users/icaro/Downloads/script.sql",
-		"/C/Users/icaro/Documents/UESC/Analise numerica/Alexandre/1o Relatorio/Bisseccao/BissecFINALBackup.cpp",
-		"/C/Users/icaro/Documents/IA/latin square_201512356.pl",
-		"/C/Users/icaro/Documents/IA/water-jug-problem.py",
-		"/C/Users/icaro/Documents/mes.c",
-		"/C/Users/icaro/Documents/IA/soma15.pl",
-		"/C/Program Files (x86)/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg",
-		"/C/Users/icaro/Documents/UESC/Analise numerica/Alexandre/1o Relatorio/Bisseccao/a.out",
-		"/C/Users/icaro/Documents/Análise Numérica/R1/Jacobi/Jacobi.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R1/Newton-Rapshon/Newton.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R1/PosicaoFalsa/posicaofalsa.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R1/Secante/Secante.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/AP/AproximacaoPolinomial.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/GaussLaguerre/GaussLaguerre.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/Lagrange/Lagrange.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/MMQ/MMQ.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/NewtonCotes/NewtonCotes.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/QuadraturaGauss/QGauss.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/Simpson13/Simpson13.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/Simpson38/Simpson38.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R2/Trapezio/TrapezioIC.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/DiferencasFinitas/DiferencasFinitas.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/Euler/Euler.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/EulerMelhorado/EulerMelhorado.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/Heun/Heun.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/Heun/HeunModificado.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/Runge/RungeKutta2.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/Runge/RungeKutta3.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/Runge/RungeKutta4.sce",
-		"/C/Users/icaro/Documents/Análise Numérica/R3/Shooting/shooting.sce",
-		"/C/Users/icaro/Documents/Analise 2018.2/Análise Numérica - 2º Crédito/Regra-do-Trapezio/Regra-do-Trapezio.sce"
+		"/C/Users/icaro/Documents/Python/biopython/transcricao.py"
 	],
 	"find":
 	{
@@ -569,134 +653,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"*",
+			"13",
+			"*",
+			"entry-sign",
 			"new_file",
 			"write",
-			"this_name",
-			"new_fasta",
-			"close",
+			"entry-signature",
+			"continue",
+			"style=\"left:  ",
+			"signatures",
+			"entry-signatures",
+			"style=\"left:  ",
+			"fasta_file",
+			"entry-signatures",
+			"signatures",
+			"entry-signatures",
+			"superfam",
+			"matches",
+			"div class=\"matches\"",
+			"style=\"left",
+			"file",
+			"FILE",
+			"file",
+			"flash",
+			"1",
+			"    ",
+			",",
+			"io",
+			"IO",
+			"io",
+			"IO",
+			"io",
+			"IO",
+			"io",
+			"secure_filename",
+			"request",
+			"upload",
+			"split_proteins2",
+			"print",
 			"readlines",
+			"orig_raw_file",
+			"readlines",
+			"raw_file",
+			"orig_raw_file",
+			"save_splitted",
+			"RL",
+			"RL1",
+			"print",
+			"os.stat",
+			"raw_file",
+			"new_file",
+			"\"SIZE = \"",
+			"size",
+			"SIZE",
+			"size",
+			"SIZE",
+			"print",
+			"close",
+			"division",
+			"checkpoints",
+			"read_file",
+			"fasta_file",
+			"raw_file",
+			"fasta_file",
+			"raw_file",
+			"save_splitted",
+			"fasta_file",
+			"num_divisions",
+			"fasta_file",
+			"this",
+			"num_divisions",
+			"proteins_fasta",
+			"num_divisions",
+			"create_files",
+			"fasta_file",
+			"this",
+			"wrapper",
+			"read_file",
+			"raw_file",
 			"fasta_file",
 			"save_splitted",
-			"line",
-			"new_file",
-			"index",
-			"open",
-			"new_file",
-			"readlines",
-			"new_file",
-			"msygsl",
-			">",
-			"filename",
-			"read_file",
+			"file",
 			"proteins_fasta",
-			"print",
-			"size",
-			"tam_referencia",
-			"size",
-			"element",
-			"total_size",
-			"proteins",
-			"index",
-			"lista",
+			"filename",
+			"number",
+			"    ",
+			"   ",
+			"value",
+			"2",
+			"5",
+			"email",
+			"extension",
+			"allowed_file",
+			"filename",
+			"name",
+			"file",
+			"message",
+			"messages",
+			"h2",
+			"mail",
+			"Mail",
+			"mail",
+			"main",
+			"mail",
+			"mail_subject",
+			"app.config",
+			"mail",
+			"Mail",
+			"mail",
+			"app",
+			"config",
+			"faa",
+			"create_files",
+			"filetype",
+			"split",
+			"\\",
+			"upload",
+			"send_mail",
+			"render_template_string",
 			"fasta_file",
-			"linha",
-			"linhas",
-			"separated_elements_fasta",
-			"salvar_separated_elements_fasta",
-			"arquivo",
-			"file_fasta",
-			"arquivo",
-			"nome_arquivo",
-			"ler_arquivo",
-			"separated_elements_fasta2",
-			"lista",
-			"index",
-			"x",
-			"z",
-			"split_desordered_regions",
-			"clean_list",
-			"lista",
-			"teste",
-			":\n",
-			"1",
-			"/\n",
-			"*",
-			"humano",
-			"1",
-			"from",
-			"M",
-			"Z",
-			"U",
-			"O",
-			"B",
-			"len(lista)",
-			"mediana",
-			"media",
-			"aleatorio",
-			"2",
-			"[^ ]*[r|R][^ |\\.]*",
-			"1",
-			"a",
-			"b",
-			"a",
-			"volum",
-			"\"\n",
-			"mouse",
-			"wheel",
-			"team",
-			"cl_",
-			"mouse4",
-			"}",
-			"1",
-			"2",
-			"1",
-			"2",
-			"regra2",
-			"regra1",
-			"Choose",
-			"iguais",
-			"C",
-			"B",
-			"A",
-			"Choose",
-			"RungeK",
-			"RangeK",
-			"Runge",
-			"Posicao",
-			"jogar",
-			"Posicao",
-			"posicao",
-			"Posicao",
-			"leitura_posicao",
-			"Elemento",
-			"soma",
-			"iguais",
-			"read",
-			"read_integer",
-			").",
-			"3",
-			"4",
-			"p_L no ",
-			"smaller_path",
-			"small_path",
-			"path",
-			"= [",
-			"new_path2 =",
-			"new_pa",
-			"path = [path,",
-			"(node,",
-			"(n",
-			"(p",
-			"path =",
-			"h +",
-			"e +",
-			"path +",
-			"node +",
-			"+=",
-			"original_n",
-			"path +=",
-			"node +=",
-			"node"
+			"write",
+			"read_file",
+			"form.fasta_file.data",
+			"fasta_file",
+			"form",
+			"infos",
+			"this_file",
+			"proteins_fasta"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -704,6 +788,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Submit"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -714,8 +799,481 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/Tc04_g018130.txt",
+					"settings":
+					{
+						"buffer_size": 622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete": false,
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/split_proteins_local.py",
+					"settings":
+					{
+						"buffer_size": 8711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								352
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete": false,
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1938.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/GCF_000347755.3_Ccap_2.1_protein.txt",
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								231
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete": false,
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/sender.py",
+					"settings":
+					{
+						"buffer_size": 2786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1629,
+								1629
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_complete": false,
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 912.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -799,6 +1357,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 325.0,
+	"side_bar_width": 310.0,
 	"status_bar_visible": true
 }

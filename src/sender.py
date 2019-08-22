@@ -1,8 +1,8 @@
-import io, os
+import io
 #import magic
 import split_proteins
 from app import app
-from flask import Flask, flash, request, redirect, render_template
+from flask import flash, request, redirect, render_template
 from flask_mail import Mail, Message
 
 ALLOWED_EXTENSIONS = set([
@@ -16,19 +16,25 @@ ALLOWED_EXTENSIONS = set([
 
 mail = Mail(app)
 
+
 def extension(filename):
 
     extension = filename.rsplit('.')
     extension = extension[-1].lower()
 
-    if extension == ('multifasta') or extension == ('multi-fasta') or extension == ('fasta'):
+    if (extension == ('multifasta') or
+        extension == ('multi-fasta') or
+        extension == ('fasta')):
+
         extension = 'faa'
 
     return extension
 
+
 @app.route('/')
 def upload_form():
     return render_template('upload.html')
+
 
 @app.route('/', methods=['POST'])
 def upload_file():
@@ -48,15 +54,15 @@ def upload_file():
             return redirect(request.url)
         if file and final_words in ALLOWED_EXTENSIONS:
             mail_subject = ("Nova submissão - Arquivo fasta - " +
-                file.filename
-                )
+                            file.filename
+                            )
 
             mail_body = (
                 "Arquivo .fasta submetido por " +
                 name +
                 "\nEmail: " +
                 email +
-                "\nNúmero de clusters solicitado: " +
+                "\nNúmero de núcleos solicitado: " +
                 str(number)
             )
 
@@ -67,18 +73,9 @@ def upload_file():
                 body=mail_body
                 )
 
-            # print ('\n\nFILE = \n\n', file)
-            # print ('\n\nTYPE = \n\n', type(file))
-            # print ('\n\nSTREAM = \n\n', file.stream)
-
             wrapper = io.TextIOWrapper(file)
 
-            # print ('\n\nTYPE = \n\n', type(wrapper))
-
             splitted_files = split_proteins.names(raw_name, wrapper, number)
-
-            # print ('\n\nFILE = \n\n', splitted_files)
-            # print ('\n\nTYPE = \n\n', type(splitted_files))
 
             for item in splitted_files:
 
