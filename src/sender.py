@@ -1,4 +1,4 @@
-import io
+import io, os
 #import magic
 import split_proteins
 from app import app
@@ -91,8 +91,11 @@ def upload_file():
                 )
 
                 f.close()
-
-            mail.send(msg)
+            try:
+                mail.send(msg)
+            except:
+                flash('Erro: O arquivo não pode exceder 25MB!')
+                return redirect('/')
 
             flash('Arquivo enviado com sucesso!')
             return redirect('/')
