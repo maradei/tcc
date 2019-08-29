@@ -7,7 +7,7 @@ import re
 filename = 'Tc04_g018130'
 
 
-def main(filename):
+def main(filename, file):
 
     # Funcao clean_initial_lines desenvolvida para limpar as primeiras
     #   linhas de registro vazias e deixar o indice da lista correspon-
@@ -111,6 +111,8 @@ def main(filename):
         new_file.write(str(short_residues))
         new_file.close()
 
+        return new_file
+
 
 
     # Execucao da expressao regular no arquivo .diso, com a finalidade
@@ -118,7 +120,7 @@ def main(filename):
     #   pondente a posicao no arquivo, ou seja, se a posicao existir na
     #   lista, ela e um residuo desordenado
     diso_lines = [re.findall("[0-9]+(?=[ ][A-Z][ ][\*])", line)
-      for line in open(filename + '.diso')]
+      for line in file]
 
     diso_lines = clean_initial_lines(diso_lines)
     # print ('lista completa: ', diso_lines)
@@ -129,4 +131,5 @@ def main(filename):
     # print ('lista dividida: ')
     # print (diso_divided2)
 
-    save_file(filename, diso_divided2)
+    return save_file(filename, diso_divided2)
+

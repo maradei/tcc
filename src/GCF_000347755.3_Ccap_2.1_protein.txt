@@ -1,9 +1,6 @@
 Number of aminoacids = 17430814
 
-Partition number 1 has 2490207 aminoacids
-Partition number 2 has 2490471 aminoacids
-Partition number 3 has 2490574 aminoacids
-Partition number 4 has 2489478 aminoacids
-Partition number 5 has 2491408 aminoacids
-Partition number 6 has 2488719 aminoacids
-Partition number 7 has 2489957 aminoacids
+Partition number 1 has 4359457 aminoacids
+Partition number 2 has 4356206 aminoacids
+Partition number 3 has 4357974 aminoacids
+Partition number 4 has 4357177 aminoacids

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"txt",
+				"txt_file"
+			],
+			[
+				"final",
+				"final_words"
+			],
+			[
 				"new",
 				"new_file"
 			],
@@ -287,38 +295,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/Tc04_g018130.txt",
-			"settings":
-			{
-				"buffer_size": 622,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/split_proteins_local.py",
-			"settings":
-			{
-				"buffer_size": 8711,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/GCF_000347755.3_Ccap_2.1_protein.txt",
-			"settings":
-			{
-				"buffer_size": 326,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/sender.py",
-			"settings":
-			{
-				"buffer_size": 2786,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -491,7 +467,7 @@
 				"Package Control: List Packages"
 			]
 		],
-		"width": 514.0
+		"width": 386.0
 	},
 	"console":
 	{
@@ -508,13 +484,36 @@
 	},
 	"file_history":
 	[
-		"/C/Users/icaro/Documents/tcc/src/split_proteins.py",
+		"/C/Users/icaro/Documents/tcc/src/app.py",
 		"/C/Users/icaro/Documents/tcc/src/sender.py",
+		"/C/Users/icaro/Documents/tcc/src/templates/upload.html",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000005845.2_ASM584v2_protein.faa/2-7_GCF_000005845.2_ASM584v2_protein.faa",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000005845.2_ASM584v2_protein.faa/1-7_GCF_000005845.2_ASM584v2_protein.faa",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000005845.2_ASM584v2_protein.faa/7-7_GCF_000005845.2_ASM584v2_protein.faa",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000005845.2_ASM584v2_protein.faa/4-7_GCF_000005845.2_ASM584v2_protein.faa",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000005845.2_ASM584v2_protein.faa/3-7_GCF_000005845.2_ASM584v2_protein.faa",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000005845.2_ASM584v2_protein.faa/5-7_GCF_000005845.2_ASM584v2_protein.faa",
+		"/C/Users/icaro/Documents/Python/biopython/GCF_000005845.2_ASM584v2_protein.faa/6-7_GCF_000005845.2_ASM584v2_protein.faa",
+		"/C/Users/icaro/Documents/tcc/copy/split_proteins.py",
+		"/C/Users/icaro/Documents/tcc/copy/sender.py",
+		"/C/Users/icaro/Documents/tcc/copy/templates/upload.html",
+		"/C/Users/icaro/Documents/tcc/copy/find_entries_diso.py",
+		"/C/Users/icaro/Documents/tcc/copy/templates/js/bootstrap.js",
+		"/C/Users/icaro/Documents/Python/biopython/Arquivos Fasta/Arquivos Fasta/1-2_human.faa",
+		"/C/Users/icaro/Documents/Python/biopython/Arquivos Fasta/Arquivos Fasta/2-2_human.faa",
+		"/C/Users/icaro/Documents/Python/biopython/Arquivos Fasta/3-3_GCF_000347755.3_Ccap_2.1_protein_2.faa",
+		"/C/Users/icaro/Documents/Python/biopython/Arquivos Fasta/2-3_GCF_000347755.3_Ccap_2.1_protein_2.faa",
+		"/C/Users/icaro/Documents/Python/biopython/Arquivos Fasta/1-3_GCF_000347755.3_Ccap_2.1_protein_2.faa",
+		"/C/Users/icaro/Downloads/download",
+		"/C/Users/icaro/Documents/tcc/src/Tc04_g018130.txt",
+		"/C/Users/icaro/Documents/tcc/src/split_proteins_local.py",
+		"/C/Users/icaro/Documents/UESC/TCC/icaro/icaro/teste2/teste.faa",
+		"/C/Users/icaro/Documents/UESC/TCC/icaro/icaro/teste.faa",
+		"/C/Users/icaro/Documents/tcc/src/GCF_000347755.3_Ccap_2.1_protein.txt",
+		"/C/Users/icaro/Documents/tcc/src/split_proteins.py",
 		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-proteins/flask-proteins/admin.py",
 		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-proteins/flask-proteins/auth.py",
 		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-proteins/flask-proteins/app.py",
-		"/C/Users/icaro/Documents/tcc/src/app.py",
-		"/C/Users/icaro/Documents/tcc/src/split_proteins_local.py",
 		"/C/Users/icaro/Documents/tcc/src/find_entries_diso.py",
 		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/YP_005220827.1.html",
 		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/modify_interpro_analysis.py",
@@ -526,7 +525,6 @@
 		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/resources/css/type_colours.css",
 		"/C/Users/icaro/Documents/tcc/tests/interpro/YP_005220827.1/YP_005220827.1.faa.html/resources/css/database.css",
 		"/C/Users/icaro/Documents/tcc/.gitignore",
-		"/C/Users/icaro/Documents/tcc/src/templates/upload.html",
 		"/C/Users/icaro/Documents/Python/biopython/GCF_000347755.3_Ccap_2.1_protein_2.faa",
 		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/testing_split_proteins2.py",
 		"/C/Users/icaro/Documents/tcc/tests/flask-project/flask-project/app.py",
@@ -598,7 +596,6 @@
 		"/C/Users/icaro/Documents/tcc/src/2_GCF_000240185.1_ASM24018v2_protein.faa",
 		"/C/Users/icaro/Documents/tcc/src/1_GCF_000240185.1_ASM24018v2_protein.faa",
 		"/C/Users/icaro/Documents/tcc/src/Tc04_g018130.diso",
-		"/C/Users/icaro/Documents/tcc/src/Tc04_g018130.txt",
 		"/C/Users/icaro/Documents/tcc/src/4_multi.faa",
 		"/C/Users/icaro/Documents/tcc/src/3_multi.faa",
 		"/C/Users/icaro/Documents/tcc/src/2_multi.faa",
@@ -614,28 +611,7 @@
 		"/C/Users/icaro/Documents/tcc/ref.txt",
 		"/C/Users/icaro/Documents/tcc/split_proteins.py",
 		"/C/Users/icaro/Documents/UESC/Analise numerica/Analise numerica/Relatorio/R-Kutta-ord3/rKutta-ord3.py",
-		"/C/Users/icaro/Documents/tcc/Tc04_g018130.diso",
-		"/C/Users/icaro/Documents/tcc/find_entries_diso.py",
-		"/C/Users/icaro/Documents/tcc/GCF_000240185.1_ASM24018v2_protein.faa",
-		"/C/Users/icaro/Documents/Python/lista2/split_proteins.py",
-		"/C/Users/icaro/Documents/UESC/TCC/Testes DISOPRED3/find_entries_diso.py",
-		"/C/Users/icaro/Documents/UESC/TCC/python/GCF_000240185.1_ASM24018v2_protein.faa",
-		"/C/Users/icaro/Documents/UESC/TCC/python/par.py",
-		"/C/Users/icaro/Documents/Python/lista2/dicionario_multifasta.py",
-		"/C/Users/icaro/Documents/Python/lista2/switch.py",
-		"/C/Users/icaro/Documents/Python/lista2/multi2.fasta",
-		"/C/Users/icaro/Documents/Python/lista2/menu.py",
-		"/C/Users/icaro/Documents/Python/lista2/salvar_arquivo_fasta.py",
-		"/C/Users/icaro/Documents/Python/lista2/sequencias_iguais.py",
-		"/C/Users/icaro/Documents/Python/lista2/arquivo_na_tela.py",
-		"/C/Users/icaro/Documents/Python/lista2/GCF_000001405.39_GRCh38.p13_protein.faa",
-		"/C/Users/icaro/Documents/UESC/TCC/python/GCF_000240185.1_ASM24018v2_genomic.fna",
-		"/C/Users/icaro/Documents/Python/biopython/hello_world_os.py",
-		"/C/Users/icaro/Documents/Python/biopython/estrutura_proteina.py",
-		"/C/Users/icaro/Documents/Python/biopython/traducao.py",
-		"/C/Users/icaro/Documents/Python/biopython/seq_complementar.py",
-		"/C/Users/icaro/Documents/Python/biopython/ler_rna_humxbac.py",
-		"/C/Users/icaro/Documents/Python/biopython/transcricao.py"
+		"/C/Users/icaro/Documents/tcc/Tc04_g018130.diso"
 	],
 	"find":
 	{
@@ -653,6 +629,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"request.files",
+			"raw_file",
+			"filename",
+			"txt_file",
+			"open",
+			".faa",
+			"create_files",
+			"save_file",
+			"final_words",
+			"raw_name",
+			"split",
+			"document",
+			"inlineRadioOptions",
+			"request.files",
+			"ALLOWED_EXTENSIONS",
+			"	",
+			"\n	",
+			"	",
 			"*",
 			"13",
 			"*",
@@ -762,25 +756,7 @@
 			"mail",
 			"Mail",
 			"mail",
-			"app",
-			"config",
-			"faa",
-			"create_files",
-			"filetype",
-			"split",
-			"\\",
-			"upload",
-			"send_mail",
-			"render_template_string",
-			"fasta_file",
-			"write",
-			"read_file",
-			"form.fasta_file.data",
-			"fasta_file",
-			"form",
-			"infos",
-			"this_file",
-			"proteins_fasta"
+			"app"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -799,481 +775,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/Tc04_g018130.txt",
-					"settings":
-					{
-						"buffer_size": 622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								583,
-								583
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_complete": false,
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/split_proteins_local.py",
-					"settings":
-					{
-						"buffer_size": 8711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								352,
-								352
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_complete": false,
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1938.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/GCF_000347755.3_Ccap_2.1_protein.txt",
-					"settings":
-					{
-						"buffer_size": 326,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								224,
-								231
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_complete": false,
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/sender.py",
-					"settings":
-					{
-						"buffer_size": 2786,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1629,
-								1629
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"auto_complete": false,
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"devel": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": "load-save",
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 912.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

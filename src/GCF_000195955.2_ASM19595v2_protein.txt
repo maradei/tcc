@@ -1,4 +1,0 @@
-Number of aminoacids = 1315534
-
-Partition number 1 has 657799 aminoacids
-Partition number 2 has 657735 aminoacids

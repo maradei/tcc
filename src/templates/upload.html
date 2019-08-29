@@ -16,7 +16,7 @@
       border-radius: 15px 50px;
       border: 1px solid #ccc;
       margin: 0 auto;
-      margin-top: 5%;
+      margin-top: 1%;
       padding: 1%;
       width: 60%;">
       <h2 class="text-center">Sistema de análise de proteínas .fasta</h2>
@@ -36,6 +36,7 @@
           {% endwith %}
       </p>
       <form method="post" action="/" enctype="multipart/form-data">
+
           <div class="form-group">
             <label for="exampleFormControlSelect1">
               Insira seu nome aqui:
@@ -48,9 +49,31 @@
             placeholder="Seu nome aqui"
             required>
           </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Insira seu endereço de email:</label>
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Selecione o tipo de arquivo a ser enviado:
+            </label>
+            <br/>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="file_option" id="inlineRadio1" value="op_fasta" required>
+              <br/>
+              <label class="form-check-label" for="inlineRadio1">Arquivo 'fasta'</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="file_option" id="inlineRadio2" value="op_diso" required>
+              <label class="form-check-label" for="inlineRadio2">Arquivo '.diso'</label>
+              <br/>
+            </div>
+          </div>
+
           <div class="form-group">
             <label for="exampleFormControlSelect1">
-              Insira o número de clusters a serem utilizados:
+              Insira o número de núcleos a serem utilizados (se for um arquivo fasta):
             </label>
             <select
             name="number"
@@ -80,13 +103,10 @@
           </div>
 
           <div class="form-group">
-            <label for="exampleFormControlInput1">Endereço de email</label>
-            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" required>
-          </div>
-
-          <div class="form-group">
-            <label for="exampleFormControlFile1">Selecione o arquivo no formato fasta ('faa', 'fasta',
-              'fna', 'ffn', 'frn', 'multifasta' ou 'multi-fasta'):</label>
+            <label for="exampleFormControlFile1">Selecione o arquivo no formato fasta* ('faa', 'fasta',
+              'fna', 'ffn', 'frn', 'multifasta' ou 'multi-fasta') ou .diso:
+              <p> *Se o arquivo exceder 25MB, será baixado um arquivo .zip com as partes para serem enviadas separadamente. </p>
+            </label>
             <input
             type="file"
             name="file"
